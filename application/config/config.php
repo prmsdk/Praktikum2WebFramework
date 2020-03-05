@@ -23,6 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+
+// ini adalah url utama pada aplikasi web anda, semua url pada controller dan asset akan diawali oleh link dibawah
 $config['base_url'] = 'http://localhost/Praktikum2WebFramework/';
 
 /*
@@ -35,7 +37,7 @@ $config['base_url'] = 'http://localhost/Praktikum2WebFramework/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------

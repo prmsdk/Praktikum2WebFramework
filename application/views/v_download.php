@@ -1,3 +1,7 @@
+<!-- Berikut adalah halaman download yang ditampilkan ketika mengakses controller download/index
+Berfungsi untuk menampilkan view yang menampilkan link download gambar yang menuju ke controller download/lakukan_download
+ -->
+
 <!DOCTYPE html>
 <html>
 <head>

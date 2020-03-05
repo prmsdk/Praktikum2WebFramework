@@ -1,3 +1,4 @@
+<!-- Berikut adalah halaman yang menampilkan halaman yang terintegrasi dengan bootstrap secara offline menggunakan bantuan helper URL -->
 <!doctype html>
 <html lang="en">
   <head>

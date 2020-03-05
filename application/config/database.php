@@ -75,9 +75,13 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
+	// berikut adalah nama webserver database anda
 	'hostname' => 'localhost',
+	// berikut adalah username database anda, default jika menggunakan apache adalah root, jika nginx kosong
 	'username' => 'root',
+	// berikut adalah password database anda
 	'password' => '',
+	// berikut adalah nama database anda
 	'database' => 'malasngoding',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

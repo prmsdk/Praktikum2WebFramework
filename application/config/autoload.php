@@ -58,6 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
+// Ini adalah tempat untuk menyertakan libraries/pustaka yang akan dimuat
 $autoload['libraries'] = array('database');
 
 /*
@@ -89,6 +90,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
+// ini adalah tempat untuk menyertakan helper/bantuan yang telah disediakan oleh codeigniter
 $autoload['helper'] = array('url', 'html');
 
 /*
@@ -132,4 +134,5 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
+// ini adalah tempat untuk menyertakan model yang akan dimuat secara otomatis
 $autoload['model'] = array();

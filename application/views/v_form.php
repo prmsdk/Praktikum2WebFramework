@@ -1,3 +1,5 @@
+<!-- Berikut adalah halaman yang menampilkan form, untuk penerapan form_validation -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,7 +7,9 @@
 </head>
 <body>
 	<h1>Membuat Form Validation dengan CodeIgniter | MalasNgoding.com</h1>
+	<!-- Berikut adalah baris kode yang memiliki tugas membuat form menggunakan helper form -->
 	<?php echo form_open('form/aksi'); ?>
+		<!-- Berikut adalah baris kode yang merfungsi untuk membuat label dan input serta button pada form -->
 		<label>Nama</label><br/>
 		<input type="text" name="nama"><br/>
 		<?php echo form_error('nama'); ?>
